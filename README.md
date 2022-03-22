@@ -1,5 +1,5 @@
-# dotfiles
-Dotfiles for various applications in my machine
+# Nekoteoj's dotfiles
+Dotfiles for various applications in my own systems
 
 ## List of applications
 
