@@ -16,3 +16,11 @@ Dotfiles for various applications in my machine
 - polybar
 - picom
 
+
+## List of scripts
+
+- Autolock using i3lock
+- Customized dmenu script
+- Customized dmenu-power script
+- Customized j4-dmenu-desktop script
+
