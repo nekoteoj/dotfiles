@@ -1,0 +1,4 @@
+#!/bin/bash
+
+killall xautolock || true
+xautolock -time 15 -locker "i3lock -i ~/Pictures/wallpapers/sumikko1_2k_lock.png" &
