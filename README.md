@@ -24,6 +24,11 @@ Dotfiles for various applications in my own systems
 - Customized dmenu-power script
 - Customized j4-dmenu-desktop script
 
+## Keyboard layouts
+
+- Bakeneko60
+![Alt text](/imgs/keyboard_layout.png?raw=true "Via Keyboard layout")
+
 ## Screenshots
 
 1. Funtoo Linux on Desktop
