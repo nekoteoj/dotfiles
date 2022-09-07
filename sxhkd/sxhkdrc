@@ -18,6 +18,10 @@ super + shift + p
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# Set Pisit's HHKB style keymap
+super + alt + m
+    xkbcomp ~/devel/keymap/input.xkb $DISPLAY
+
 #
 # bspwm hotkeys
 #
@@ -85,8 +89,10 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
+# Noted: we change index (^) to desktop name to allow local workspace change in multiple monitor
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+	bspc {desktop -f,node -d} {1-9,10}.local
+	# bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
 # preselect

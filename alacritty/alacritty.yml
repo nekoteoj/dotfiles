@@ -2,35 +2,33 @@ window:
   padding:
     x: 4
     y: 4
-  opacity: 0.98
-# Colors (Ayu Mirage)
+  opacity: 1.00
+# Flat remix theme
 colors:
-  # Default colors
   primary:
-    background: '#202734'
-    foreground: '#CBCCC6'
+    background: '0x272a34'
+    foreground: '0xFFFFFF'
 
-  # Normal colors
   normal:
-    black: '#191E2A'
-    red: '#FF3333'
-    green: '#BAE67E'
-    yellow: '#FFA759'
-    blue: '#73D0FF'
-    magenta: '#FFD580'
-    cyan: '#95E6CB'
-    white: '#C7C7C7'
+    black:   '0x1F2229'
+    red:     '0xEC0101'
+    green:   '0x47D4B9'
+    yellow:  '0xFF8A18'
+    blue:    '0x277FFF'
+    magenta: '0xD71655'
+    cyan:    '0x05A1F7'
+    white:   '0xFFFFFF'
 
-  # Bright colors
+
   bright:
-    black: '#686868'
-    red: '#F27983'
-    green: '#A6CC70'
-    yellow: '#FFCC66'
-    blue: '#5CCFE6'
-    magenta: '#FFEE99'
-    cyan: '#95E6CB'
-    white: '#FFFFFF'
+    black:   '0x1F2229'
+    red:     '0xD41919'
+    green:   '0x5EBDAB'
+    yellow:  '0xFEA44C'
+    blue:    '0x367bf0'
+    magenta: '0xBF2E5D'
+    cyan:    '0x49AEE6'
+    white:   '0xFFFFFF'
 font:
   normal:
     family: FiraMono Nerd Font
@@ -48,4 +46,4 @@ font:
     family: FiraMono Nerd Font
     style: Bold Italic
 
-  size: 10
+  size: 11

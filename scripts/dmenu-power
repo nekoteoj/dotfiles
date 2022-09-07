@@ -2,15 +2,15 @@
 
     
 case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | dmenu \
-    -nb "#202734" \
+    -nb "#272A34" \
     -nf "#CBCCC6" \
     -sf "#191E2A" \
-    -sb "#BAE67E" \
+    -sb "#FEA44C" \
     -i -p \
     "Power:" -l 5)" in
-        Shutdown) exec loginctl poweroff;;
-        Restart) exec loginctl reboot;;
+        Shutdown) exec systemctl poweroff;;
+        Restart) exec systemctl reboot;;
         Logout) bspc quit;;
-        Suspend) exec loginctl suspend;;
+        Suspend) exec systemctl suspend;;
         Lock) exec i3lock -i ~/Pictures/wallpapers/sumikko1_2k_lock.png;;
 esac
