@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+choice=$(printf "Shutdown\nRestart\nSuspend\nLogout" | fuzzel --dmenu --prompt "Power: ")
+
+case "$choice" in
+    Shutdown)
+        systemctl poweroff
+        ;;
+    Restart)
+        systemctl reboot
+        ;;
+    Suspend)
+        systemctl suspend
+        ;;
+    Logout)
+        swaymsg exit
+        ;;
+esac
+
